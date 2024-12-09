@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		39AEE44B2D06C7CD00BF886C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AEE4302D06C7C600BF886C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AEE4372D06C7C600BF886C;
+			remoteInfo = iptv;
+		};
+		39AEE4552D06C7CD00BF886C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AEE4302D06C7C600BF886C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AEE4372D06C7C600BF886C;
+			remoteInfo = iptv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39AEE4382D06C7C600BF886C /* iptv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iptv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AEE44A2D06C7CD00BF886C /* iptvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iptvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AEE4542D06C7CD00BF886C /* iptvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iptvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		39AEE43A2D06C7C600BF886C /* iptv */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iptv;
+			sourceTree = "<group>";
+		};
+		39AEE44D2D06C7CD00BF886C /* iptvTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iptvTests;
+			sourceTree = "<group>";
+		};
+		39AEE4572D06C7CD00BF886C /* iptvUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iptvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AEE4352D06C7C600BF886C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEE4472D06C7CD00BF886C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEE4512D06C7CD00BF886C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AEE42F2D06C7C600BF886C = {
+			isa = PBXGroup;
+			children = (
+				39AEE43A2D06C7C600BF886C /* iptv */,
+				39AEE44D2D06C7CD00BF886C /* iptvTests */,
+				39AEE4572D06C7CD00BF886C /* iptvUITests */,
+				39AEE4392D06C7C600BF886C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AEE4392D06C7C600BF886C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AEE4382D06C7C600BF886C /* iptv.app */,
+				39AEE44A2D06C7CD00BF886C /* iptvTests.xctest */,
+				39AEE4542D06C7CD00BF886C /* iptvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AEE4372D06C7C600BF886C /* iptv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AEE45E2D06C7CD00BF886C /* Build configuration list for PBXNativeTarget "iptv" */;
+			buildPhases = (
+				39AEE4342D06C7C600BF886C /* Sources */,
+				39AEE4352D06C7C600BF886C /* Frameworks */,
+				39AEE4362D06C7C600BF886C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				39AEE43A2D06C7C600BF886C /* iptv */,
+			);
+			name = iptv;
+			packageProductDependencies = (
+			);
+			productName = iptv;
+			productReference = 39AEE4382D06C7C600BF886C /* iptv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39AEE4492D06C7CD00BF886C /* iptvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AEE4612D06C7CD00BF886C /* Build configuration list for PBXNativeTarget "iptvTests" */;
+			buildPhases = (
+				39AEE4462D06C7CD00BF886C /* Sources */,
+				39AEE4472D06C7CD00BF886C /* Frameworks */,
+				39AEE4482D06C7CD00BF886C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AEE44C2D06C7CD00BF886C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				39AEE44D2D06C7CD00BF886C /* iptvTests */,
+			);
+			name = iptvTests;
+			packageProductDependencies = (
+			);
+			productName = iptvTests;
+			productReference = 39AEE44A2D06C7CD00BF886C /* iptvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39AEE4532D06C7CD00BF886C /* iptvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AEE4642D06C7CD00BF886C /* Build configuration list for PBXNativeTarget "iptvUITests" */;
+			buildPhases = (
+				39AEE4502D06C7CD00BF886C /* Sources */,
+				39AEE4512D06C7CD00BF886C /* Frameworks */,
+				39AEE4522D06C7CD00BF886C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AEE4562D06C7CD00BF886C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				39AEE4572D06C7CD00BF886C /* iptvUITests */,
+			);
+			name = iptvUITests;
+			packageProductDependencies = (
+			);
+			productName = iptvUITests;
+			productReference = 39AEE4542D06C7CD00BF886C /* iptvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AEE4302D06C7C600BF886C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					39AEE4372D06C7C600BF886C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					39AEE4492D06C7CD00BF886C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 39AEE4372D06C7C600BF886C;
+					};
+					39AEE4532D06C7CD00BF886C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 39AEE4372D06C7C600BF886C;
+					};
+				};
+			};
+			buildConfigurationList = 39AEE4332D06C7C600BF886C /* Build configuration list for PBXProject "iptv" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39AEE42F2D06C7C600BF886C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 39AEE4392D06C7C600BF886C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AEE4372D06C7C600BF886C /* iptv */,
+				39AEE4492D06C7CD00BF886C /* iptvTests */,
+				39AEE4532D06C7CD00BF886C /* iptvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AEE4362D06C7C600BF886C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEE4482D06C7CD00BF886C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEE4522D06C7CD00BF886C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AEE4342D06C7C600BF886C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEE4462D06C7CD00BF886C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEE4502D06C7CD00BF886C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39AEE44C2D06C7CD00BF886C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AEE4372D06C7C600BF886C /* iptv */;
+			targetProxy = 39AEE44B2D06C7CD00BF886C /* PBXContainerItemProxy */;
+		};
+		39AEE4562D06C7CD00BF886C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AEE4372D06C7C600BF886C /* iptv */;
+			targetProxy = 39AEE4552D06C7CD00BF886C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39AEE45C2D06C7CD00BF886C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		39AEE45D2D06C7CD00BF886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39AEE45F2D06C7CD00BF886C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iptv/Preview Content\"";
+				DEVELOPMENT_TEAM = U7FSY38RW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jam.rush.iptv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		39AEE4602D06C7CD00BF886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iptv/Preview Content\"";
+				DEVELOPMENT_TEAM = U7FSY38RW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jam.rush.iptv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		39AEE4622D06C7CD00BF886C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7FSY38RW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jam.rush.iptvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iptv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iptv";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		39AEE4632D06C7CD00BF886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7FSY38RW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jam.rush.iptvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iptv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iptv";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Release;
+		};
+		39AEE4652D06C7CD00BF886C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7FSY38RW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jam.rush.iptvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = iptv;
+			};
+			name = Debug;
+		};
+		39AEE4662D06C7CD00BF886C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7FSY38RW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jam.rush.iptvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = iptv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AEE4332D06C7C600BF886C /* Build configuration list for PBXProject "iptv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEE45C2D06C7CD00BF886C /* Debug */,
+				39AEE45D2D06C7CD00BF886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AEE45E2D06C7CD00BF886C /* Build configuration list for PBXNativeTarget "iptv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEE45F2D06C7CD00BF886C /* Debug */,
+				39AEE4602D06C7CD00BF886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AEE4612D06C7CD00BF886C /* Build configuration list for PBXNativeTarget "iptvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEE4622D06C7CD00BF886C /* Debug */,
+				39AEE4632D06C7CD00BF886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AEE4642D06C7CD00BF886C /* Build configuration list for PBXNativeTarget "iptvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEE4652D06C7CD00BF886C /* Debug */,
+				39AEE4662D06C7CD00BF886C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39AEE4302D06C7C600BF886C /* Project object */;
+}
